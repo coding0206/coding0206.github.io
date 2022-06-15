@@ -27,7 +27,7 @@ myButton.onclick = function() {
 function setUserName() {
     let myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+    myHeading.textContent = 'Mozilla is cool, ' + myName;
   }
 
 
